@@ -1,0 +1,27 @@
+<div id="ShowArtists">
+  <%= link_to "Voltar", event_artists_path %>
+
+  <h3><%= @artist.name %> na <%= @event.edition %></h3>
+
+  <p><%= @artist.nationality %></p>
+  
+  <p>Lista de obras na edição</p>
+    <ul>
+      <% @work.each do |work| %>
+      <li>
+        <span><%= work.title %> |</span>
+        <span><%= work.date %> |</span>
+        <span><%= work.size %> |</span>
+        <span><%= work.support %> |</span>
+        <span><%= work.technique %></span>
+        <% end %>
+      </li>
+    </ul>
+
+    <a href="/map"> CIRCULAÇÃO </a>
+  
+</div>
+
+
+
+

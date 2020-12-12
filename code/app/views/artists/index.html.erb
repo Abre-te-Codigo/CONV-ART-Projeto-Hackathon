@@ -1,0 +1,14 @@
+<div id="artists">
+  <h1>Artistas</h1>
+  <%= link_to "Voltar", events_path%>
+  <h3><%= @event.edition %></h3>
+  <ul>
+    <% @artists.each do |artist| %>
+      <li>
+        <span> <a href="artists/1"> <%= artist.name %> </a> </span>
+        <span><%= artist.nationality %></span>
+        <span><%= artist.delegation %></span>
+      </li>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,15 @@
+<div id="events">
+  <h1>Eventos</h1>
+  <a href="/"> Voltar </a>
+  <main>
+    <% @events.each do |event| %>
+      <div id="listEvents" class="listEvents">
+          <div><%= link_to event.edition, event_path(event) %></div>
+          <span>-</span>
+          <div><%= event.place %></div>
+          <div><%= event.inicial_date %></div>
+          <div><%= event.final_date %></div>
+      </div>
+    <% end %>
+  </main>
+</div>

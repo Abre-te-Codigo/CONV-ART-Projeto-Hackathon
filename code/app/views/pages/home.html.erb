@@ -1,0 +1,102 @@
+<div id="home" >
+
+  <main class="wrapper" >  
+    
+    <header>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#contactUs">Contato</a>
+      </nav>
+      <img src="<%= asset_path( 'logo.png' ) %>" />
+      <nav>
+        <img src="https://www.flaticon.com/svg/static/icons/svg/1617/1617440.svg" />
+        <img src="https://image.flaticon.com/icons/png/512/23/23931.png" />
+        <img src="https://image.flaticon.com/icons/png/512/25/25231.png" />
+      </nav>
+    </header>
+
+    <nav>
+      <a href="map"> Bienais </a>
+      <a href=""> Exposições </a>
+      <a href=""> Salões </a>
+      <a href="events"> Eventos </a>
+      <a href=""> Feiras </a>
+    </nav>
+
+    <div class="buttonsOutSide" >
+      <a href=""> Quero convergir </a>
+      <a href="#about" id="moveDowm" > <img src="https://img.flaticon.com/icons/png/512/25/25623.png"/> </a>
+      <a href="#login"> Quero conversar </a>
+    </div>
+  </main>
+
+</div>
+
+<!-- other section with 100vh -->
+<div id="about">
+  <h1>Sobre</h1>
+  <p>Com o crescente interesse em pensar a arte como fenômeno global , torna se urgente encontrar um meio de articular e analisar comparativamente as informações que as bienais vêm gerando ao longo de sua história.
+Instituições como as bienais de São Paulo, Veneza, Dakar, Istambul e tantas outras, mantêm arquivos sobre suas atividades, mas com modos diversos de sistematizar e disponibilizar dados, impedindo sua articulação dinâmica e visualização de padrões e singularidades
+Isso impossibilita a compreensão de processos culturais abrangentes e de suas transformações.
+A plataforma CONV.ART é um ambiente interativo e colaborativo de convergência para bancos de dados institucionais sobre exposições.</p>
+  <div class="authors">
+    
+    <div>
+      <img src="<%= asset_path( 'JO_bolinha.jpg' ) %>" />
+      <h5>Designer UI/UX</h5>
+    </div>
+
+    <div>
+      <img src="<%= asset_path( 'PL_bolinha.jpg' ) %>" />
+      <h5>Desenvolvedor Front-End</h5>
+    </div>
+
+    <div>
+      <img src="<%= asset_path( 'GIU_bolinha.jpg' ) %>" />
+      <h5>Desenvolvedora Full-Stack</h5>
+    </div>
+
+    <div>
+      <img src="<%= asset_path( 'MA_bolinha.jpg' ) %>" />
+      <h5>Conceituação e Pesquisa</h5>
+    </div>
+
+    <div>
+      <img src="<%= asset_path( 'TA_bolinha.jpg' ) %>" />
+      <h5>Conceituação e Pesquisa</h5>
+    </div>
+
+    <div>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+    </div>
+  </div>
+
+</div>
+
+<!-- other section with 100vh -->
+<div id="login">
+  <div class="header">
+    <img src="<%= asset_path( 'logo.png' ) %>" />
+    <a href="/">Login</a>
+  </div>
+  <form action="/">
+    <h1>Cadastro</h1>
+    <div class="inputBlock">
+      <label for="fullName">Nome Completo</label>
+      <input placeholder="Reginaldo da Cruz" type="text" name="fullName" id="fullName" />
+    </div>
+
+    <div class="inputBlock">
+      <label for="email">Email</label>
+      <input placeholder="email@dominio.com" type="email" name="email" id="email" />
+    </div>
+
+    <div class="inputBlock">
+      <label for="pass">Senha</label>
+      <input placeholder="**********" type="password" name="pass" id="pass" />
+    </div>
+
+    <button>Começar</button>
+  </form>
+</div>
