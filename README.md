@@ -6,5 +6,4 @@ Com o crescente interesse em pensar a arte como fenômeno global, torna-se urgen
 - [https://github.com/gsturion/convart](https://github.com/gsturion/convart)
 
 ## Vídeos 
-- [https://youtu.be/n4-efOrPQY4](https://youtu.be/n4-efOrPQY4)
-- [https://youtu.be/n4-efOrPQY4](https://youtu.be/n4-efOrPQY4)
+- Demo [https://youtu.be/n4-efOrPQY4](https://youtu.be/n4-efOrPQY4)
